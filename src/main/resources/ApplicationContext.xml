@@ -7,9 +7,9 @@
         <constructor-arg ref="sonyHead"/>
         <constructor-arg ref="toshibaLeg"/>
 
-        <!--<property name="hand" ref="sonyHand"/>-->
-        <!--<property name="head" ref="toshibaHead"/>-->
-        <!--<property name="leg" ref="sonyLeg"/>-->
+        <property name="hand" ref="sonyHand"/>
+        <property name="head" ref="toshibaHead"/>
+        <property name="leg" ref="sonyLeg"/>
 
     </bean>
     <bean id="sonyHand" class="impl.sony.SonyHand"/>

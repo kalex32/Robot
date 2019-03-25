@@ -28,27 +28,27 @@ public class ModelT1000 implements Robot {
     }
 
 
-    Hand getHand() {
+    public Hand getHand() {
         return hand;
     }
 
-    void setHand(Hand hand) {
+    public void setHand(Hand hand) {
         this.hand = hand;
     }
 
-    Head getHead() {
+    public Head getHead() {
         return head;
     }
 
-    void setHead(Head head) {
+    public void setHead(Head head) {
         this.head = head;
     }
 
-    Leg getLeg() {
+    public Leg getLeg() {
         return leg;
     }
 
-    void setLeg(Leg leg) {
+    public void setLeg(Leg leg) {
         this.leg = leg;
     }
 
